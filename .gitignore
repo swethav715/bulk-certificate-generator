@@ -1,0 +1,35 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and runtime files
+*.db
+*.sqlite3
+certificates.db
+test_*.db
+
+# Generated certificates
+generated_certificates/*
+!generated_certificates/.gitkeep
+
+# Environment files
+.env
+.env.local
+
+# IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
